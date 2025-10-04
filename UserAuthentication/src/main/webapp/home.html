@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .welcome-container {
+        background: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+        text-align: center;
+        width: 350px;
+    }
+    h1 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+    input[type="submit"] {
+        background: #4CAF50;
+        color: white;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    input[type="submit"]:hover {
+        background: #45a049;
+    }
+</style>
+</head>
+<body>
+
+<div class="welcome-container">
+    <h1>Welcome to Login Page</h1>
+    <form action="login.html">
+        <input type="submit" value="Go to Login">
+    </form>
+</div>
+
+</body>
+</html>
